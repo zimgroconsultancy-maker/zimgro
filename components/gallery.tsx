@@ -13,6 +13,7 @@ const galleryItems = [
   {
     type: "video",
     src: "fk1.mp4",
+    thumbnail: "fk1-thumb.jpeg",  // <- add this
     alt: "",
     span: ""
   },
@@ -31,6 +32,7 @@ const galleryItems = [
   {
     type: "video",
     src: "fk3.mp4",
+    thumbnail: "fk3-thumb.jpeg",  // <- add this
     alt: "",
     span: ""
   },
@@ -40,7 +42,6 @@ const galleryItems = [
     alt: "",
     span: "lg:col-span-2"
   },
-
   {
     type: "image",
     src: "laho4.jpeg",

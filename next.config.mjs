@@ -2,9 +2,8 @@
 const nextConfig = {
   output: "export",
   basePath: "/zimgro",
-  assetPrefix: "/zimgro/",
+  assetPrefix: "/zimgro/",  // <-- important trailing slash
   images: { unoptimized: true },
-  typescript: { ignoreBuildErrors: true },
   trailingSlash: true
 };
 
