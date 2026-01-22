@@ -10,9 +10,9 @@ const nextConfig = {
     unoptimized: true,
   },
 
-  // Add this for GitHub Pages
-  basePath: '/react-site',      // <-- your repo name
-  assetPrefix: '/react-site/',  // <-- ensures CSS, JS, images use correct path
+  // Correct settings for GitHub Pages
+  basePath: '/zimgro',      // <-- your repo name
+  assetPrefix: '/zimgro/',  // <-- ensures CSS, JS, images use correct path
 }
 
 export default nextConfig;
