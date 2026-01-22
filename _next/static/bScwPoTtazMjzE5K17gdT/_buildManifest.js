@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/zimgro//_next/:path+",
+        "destination": "/zimgro/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
