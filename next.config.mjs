@@ -1,17 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  output: "export", // static export
 
-  basePath: "/zimgro",
-  assetPrefix: "/zimgro/",
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 
   images: {
     unoptimized: true,
   },
 
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-};
+  // Add this for GitHub Pages
+  basePath: '/react-site',      // <-- your repo name
+  assetPrefix: '/react-site/',  // <-- ensures CSS, JS, images use correct path
+}
 
 export default nextConfig;
